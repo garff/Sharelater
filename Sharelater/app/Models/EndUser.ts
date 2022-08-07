@@ -15,7 +15,7 @@ export default class EndUser extends BaseModel {
   public title: string
 
   @column()
-  public date_birth: Date
+  public date: Date
 
   @column()
   public street: string
